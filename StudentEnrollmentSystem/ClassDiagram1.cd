@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StudentEnrollmentSystem.Course">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAIAEAgAAAAAAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentEnrollmentSystem.User">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAQCAAAAAAAAAAEgAAAAAAAAACAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentEnrollmentSystem.Student">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAQAAAgAEAQAAAAAQAAIAAAAAIAAAAAQCABA=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentEnrollmentSystem.Faculty">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAWgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Faculty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentEnrollmentSystem.Exam">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgIAAAIUAAAAAAAAEAAAAAIAAAAQAAAA=</HashCode>
+      <FileName>Exam.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Course" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StudentEnrollmentSystem.Result">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <AssociationLine Name="Exam" Type="StudentEnrollmentSystem.Exam" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.438" Y="4.75" />
+        <Point X="8.438" Y="3.703" />
+        <Point X="8.031" Y="3.703" />
+        <Point X="8.031" Y="3.017" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAQAAAAAAAAAAAAAAAAAAATAhAAAAAAAAAAAA=</HashCode>
+      <FileName>Result.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Student" />
+      <Property Name="Exam" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StudentEnrollmentSystem.Question_and_Answers">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAwCEAAAAAAAQAAIBAAAAAAAAAQKA=</HashCode>
+      <FileName>Question_and_Answers.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Exam" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StudentEnrollmentSystem.Feedback">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAUAAAAA=</HashCode>
+      <FileName>Feedback.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StudentEnrollmentSystem.Alumin">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Alumin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentEnrollmentSystem.Assignment">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAIIAAAAAAAAEAACAAAAABAABAAAA=</HashCode>
+      <FileName>Assignment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Course" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StudentEnrollmentSystem.SubmitedAssignment">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAUAAAAAAAAAAAAQAQAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>SubmitedAssignment.cs</FileName>
+      <NewMemberFileName>Assignment.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Assignment" />
+      <Property Name="Student" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StudentEnrollmentSystem.ExamShedule">
+    <Position X="9.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>ExamShedule.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Exam" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StudentEnrollmentSystem.EnrolledCauses">
+    <Position X="2.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnrolledCauses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Student" />
+      <Property Name="Course" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
