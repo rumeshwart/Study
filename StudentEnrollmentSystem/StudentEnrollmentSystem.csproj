@@ -65,6 +65,7 @@
     <Compile Include="Question_and_Answers.cs" />
     <Compile Include="Result.cs" />
     <Compile Include="Student.cs" />
+    <Compile Include="TestClass.cs" />
     <Compile Include="User.cs" />
     <Compile Include="User1.cs" />
     <Page Include="MainWindow.xaml">
