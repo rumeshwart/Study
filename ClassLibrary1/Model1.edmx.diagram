@@ -12,7 +12,7 @@
         <EntityTypeShape EntityType="StudentEnrollmentModel.Exam" Width="1.5" PointX="3" PointY="16.25" IsExpanded="true" />
         <EntityTypeShape EntityType="StudentEnrollmentModel.Faculty" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
         <EntityTypeShape EntityType="StudentEnrollmentModel.FeedBack" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="StudentEnrollmentModel.Question" Width="1.5" PointX="5.25" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentEnrollmentModel.Question" Width="1.5" PointX="6.125" PointY="18.125" IsExpanded="true" />
         <EntityTypeShape EntityType="StudentEnrollmentModel.Result" Width="1.5" PointX="5.25" PointY="9.25" IsExpanded="true" />
         <EntityTypeShape EntityType="StudentEnrollmentModel.Student" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
         <EntityTypeShape EntityType="StudentEnrollmentModel.SubmitedAssignment" Width="1.5" PointX="5.25" PointY="15.25" IsExpanded="true" />
